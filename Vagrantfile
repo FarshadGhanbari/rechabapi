@@ -75,6 +75,10 @@ Vagrant.configure(2) do |config|
      # Nginx
      sudo apt-get install -y nginx
 
+     # PHP for nginx
+     sudo apt-get remove -y php5 php5-cgi php5-fpm
+     sudo apt-get install -y php5 php5-cgi php5-fpm
+
      # MySQL Server (v5.5)
      echo "mysql-server-5.5 mysql-server/root_password_again password 1234" | debconf-set-selections
      echo "mysql-server-5.5 mysql-server/root_password password 1234" | debconf-set-selections
