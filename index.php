@@ -66,7 +66,6 @@ License: You must have a valid license purchased only from themeforest(the above
                     <!-- BEGIN TOP NAVIGATION MENU -->
                     <div class="top-menu">
                         <ul class="nav navbar-nav pull-right">
-
                             
                             <!-- BEGIN QUICK SIDEBAR TOGGLER -->
                             <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
@@ -106,26 +105,30 @@ License: You must have a valid license purchased only from themeforest(the above
                         <li class="nav-item start ">
                             <a href="/" class="nav-link nav-toggle">
                                 <i class="icon-home"></i>
-                                <span class="title">Dashboard</span>
-                                <span class="arrow"></span>
+                                <span class="title">Dashboard</span>                                
                             </a>
                         </li>
                         <li class="nav-item  ">
                             <a href="javascript:;" class="nav-link nav-toggle">
                                 <i class="icon-umbrella"></i>
-                                <span class="title">El tiempo</span>
-                                <span class="arrow"></span>
+                                <span class="title">El tiempo</span>                                
                             </a>
 
                         </li>
                         <li class="nav-item  ">
                             <a href="javascript:;" class="nav-link nav-toggle">
                                 <i class="icon-bar-chart"></i>
-                                <span class="title">Histórico</span>
-                                <span class="arrow"></span>
+                                <span class="title">Histórico</span>                                
                             </a>
 
                         </li>                        
+                        <li class="nav-item  ">
+                            <a href="javascript:;" class="nav-link nav-toggle">
+                                <i class="icon-logout"></i>
+                                <span class="title">Salir</span>                                
+                            </a>
+
+                        </li>                                                
                     </ul>
                     <!-- END SIDEBAR MENU -->
                 </div>
@@ -714,8 +717,7 @@ License: You must have a valid license purchased only from themeforest(the above
         <!-- END CONTAINER -->
         <!-- BEGIN FOOTER -->
         <div class="page-footer">
-            <div class="page-footer-inner"> 2015 &copy; Metronic by keenthemes.
-                <a href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" title="Purchase Metronic just for 27$ and get lifetime updates for free" target="_blank">Purchase Metronic!</a>
+            <div class="page-footer-inner"> <?php echo date('Y'); ?> &copy; Oscar Gonzalez - <a href="http://tienda.bricogeek.com">www.BricoGeek.com</a>
             </div>
             <div class="scroll-to-top">
                 <i class="icon-arrow-up"></i>
